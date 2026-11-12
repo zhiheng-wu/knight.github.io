@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f7ef">
+  <meta name="description" content="Zhiheng Wu 的个人小角落。关于我、感兴趣的研究，以及慢慢生长的项目。">
+  <title>Knight 的小角落 — Zhiheng Wu</title>
+  <link rel="icon" href="assets/sprout.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">跳到正文</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="回到首页"><img src="assets/sprout.svg" width="34" height="34" alt=""><span>Knight 的小角落<small>A LITTLE PLACE TO BE</small></span></a>
+    <nav aria-label="主导航"><a href="#about">关于我</a><a href="#interests">研究兴趣</a><a href="#projects">小小作品</a></nav>
+    <a class="github-link" href="https://github.com/zhiheng-wu" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="scene" aria-hidden="true"></div>
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="cloud cloud-one" aria-hidden="true"></div><div class="cloud cloud-two" aria-hidden="true"></div>
+      <div class="sunbeam" aria-hidden="true"></div>
+      <div class="hero-content">
+        <span class="eyebrow"><span class="tiny-sun" aria-hidden="true">☀</span> 很高兴在这里遇见你</span>
+        <h1 id="hero-title">在这里，<br>让好奇心<span class="grow-word">慢慢生长<svg viewBox="0 0 240 16" aria-hidden="true"><path d="M3 10Q108-1 236 8M14 14Q133 4 222 12"/></svg></span>。</h1>
+        <p class="hero-subtitle">一处放下想法、收藏热爱的小角落。</p>
+        <a class="button explore" href="#about">进来坐坐 <span aria-hidden="true">↓</span></a>
+        <div class="name-note"><span class="note-stroke" aria-hidden="true"></span><span>Hello, I'm <strong data-content="displayName">Zhiheng Wu</strong></span></div>
+      </div>
+      <div class="scene-caption"><span aria-hidden="true">✳</span> 风经过，想法也在发芽。</div>
+      <span class="float-seed seed-one" aria-hidden="true">✧</span><span class="float-seed seed-two" aria-hidden="true">✧</span><span class="float-seed seed-three" aria-hidden="true">✧</span>
+      <button class="motion-toggle" type="button" aria-label="暂停装饰动画" aria-pressed="false"><span class="motion-icon" aria-hidden="true">Ⅱ</span><span class="motion-label">让风歇一会</span></button>
+    </section>
+
+    <div class="content-wrap">
+      <div class="page-marker" aria-hidden="true"><span></span><span>A FEW PAGES FROM MY NOTEBOOK</span><span></span></div>
+      <div class="notebook-grid">
+        <section class="paper about-paper reveal" id="about" aria-labelledby="about-title">
+          <span class="tape tape-sage" aria-hidden="true"></span>
+          <div class="section-label"><span>01 / ABOUT ME</span><svg class="doodle" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 49V25M30 38C13 39 10 25 13 18C29 17 32 27 30 38ZM31 30C29 16 40 10 48 12C50 23 41 31 31 30ZM20 52Q31 47 42 52"/></svg></div>
+          <h2 id="about-title">你好，我是 <span data-content="displayName">Zhiheng Wu</span><span class="heading-dot">。</span></h2>
+          <div id="intro-content" class="intro-content empty-lines"><span class="empty-hint">个人介绍，留待落笔</span><i></i><i></i><i></i></div>
+          <div class="signature"><span class="signature-label">我的签名</span><p id="signature-content" class="signature-text is-empty" aria-label="个人签名待填写"></p><span class="signature-star" aria-hidden="true">✳</span></div>
+        </section>
+
+        <section class="paper interests-paper reveal" id="interests" aria-labelledby="interests-title">
+          <span class="tape tape-peach" aria-hidden="true"></span>
+          <div class="section-label"><span>02 / CURIOSITIES</span><span class="small-spark" aria-hidden="true">✧</span></div>
+          <h2 id="interests-title">一些好奇的方向</h2>
+          <div id="interest-list" class="interest-list"><div class="interest-empty"><svg viewBox="0 0 100 86" aria-hidden="true"><path d="M17 20Q34 12 49 22Q66 12 83 20V68Q65 60 49 70Q34 60 17 68ZM49 22V70M25 29L40 30M25 39L39 40M60 30L75 28M60 40L75 38"/><path class="spark-path" d="M12 7V15M8 11H16M82 5V13M78 9H86M90 38V46M86 42H94"/></svg><p>研究兴趣，留待填写</p><span>这里会装下想要继续追问的问题。</span></div></div>
+          <div class="paper-corner" aria-hidden="true"></div>
+        </section>
+      </div>
+
+      <section class="projects-section reveal" id="projects" aria-labelledby="projects-title">
+        <div class="projects-heading"><div><div class="section-label">03 / THINGS I'VE MADE</div><h2 id="projects-title">在动手中，认识世界<span class="heading-dot">。</span></h2></div><a class="text-link" href="https://github.com/zhiheng-wu?tab=repositories" target="_blank" rel="noopener noreferrer">所有仓库 <span aria-hidden="true">↗</span></a></div>
+        <div class="project-grid">
+          <a class="project-card" href="https://github.com/zhiheng-wu/Watermark" target="_blank" rel="noopener noreferrer">
+            <div class="project-art art-watermark" aria-hidden="true"><span class="art-index">01</span><svg viewBox="0 0 300 160"><rect class="photo-back" x="106" y="21" width="91" height="112" rx="3" transform="rotate(9 151 77)"/><g transform="rotate(-7 146 77)"><rect class="photo-frame" x="94" y="16" width="94" height="116" rx="3"/><path class="photo-sky" d="M101 24H181V104H101Z"/><circle class="photo-sun" cx="159" cy="45" r="12"/><path class="photo-mountain" d="M101 87L126 61L148 84L163 72L181 92V104H101Z"/><path class="photo-line" d="M116 117H163"/></g><path class="art-spark" d="M215 49V65M207 57H223M75 95V105M70 100H80"/></svg><span class="art-label">a little trace, a lasting story</span></div>
+            <div class="project-copy"><div class="project-meta">图像水印 <span>毕业项目</span></div><h3>Watermark <span aria-hidden="true">↗</span></h3><p>图像水印，以及在旋转、裁剪、压缩等输入变换下的测试。</p><span class="project-tag">图像处理</span></div>
+          </a>
+          <a class="project-card" href="https://github.com/zhiheng-wu/web_info" target="_blank" rel="noopener noreferrer">
+            <div class="project-art art-search" aria-hidden="true"><span class="art-index">02</span><svg viewBox="0 0 300 160"><g transform="rotate(-6 145 80)"><rect class="book-one" x="83" y="43" width="28" height="84" rx="3"/><rect class="book-two" x="116" y="34" width="30" height="93" rx="3"/><rect class="book-three" x="152" y="48" width="27" height="79" rx="3" transform="rotate(-13 165 87)"/><path class="book-detail" d="M90 58H104M90 110H104M123 49H139M123 111H139M159 62H172"/></g><circle class="glass" cx="194" cy="66" r="26"/><path class="glass-handle" d="M212 87L231 108"/><path class="art-spark" d="M72 25V35M67 30H77M226 35V43M222 39H230"/></svg><span class="art-label">find a thought among the pages</span></div>
+            <div class="project-copy"><div class="project-meta">信息检索 <span>工程实践</span></div><h3>Web Info <span aria-hidden="true">↗</span></h3><p>从中文分词到倒排索引，探索文本整理与检索的实现。</p><span class="project-tag">搜索与索引</span></div>
+          </a>
+          <a class="project-card" href="https://github.com/zhiheng-wu/USTC-ML24-Fall" target="_blank" rel="noopener noreferrer">
+            <div class="project-art art-learning" aria-hidden="true"><span class="art-index">03</span><svg viewBox="0 0 300 160"><g transform="rotate(5 148 77)"><rect class="notepad" x="99" y="25" width="99" height="108" rx="5"/><path class="pad-lines" d="M112 52H183M112 70H183M112 88H183M112 106H183M112 124H183"/><path class="pad-rings" d="M113 18V32M134 18V32M155 18V32M176 18V32"/><path class="graph" d="M120 104L139 89L151 94L174 65"/></g><path class="pencil" d="M210 46L220 50L196 112L186 121L186 108Z"/><path class="art-spark" d="M77 48V60M71 54H83M221 119V129M216 124H226"/></svg><span class="art-label">one small experiment at a time</span></div>
+            <div class="project-copy"><div class="project-meta">机器学习 <span>课程实验</span></div><h3>ML Notebook <span aria-hidden="true">↗</span></h3><p>线性模型、神经网络、聚类与降维，一点点积累实验。</p><span class="project-tag">Python</span></div>
+          </a>
+        </div>
+      </section>
+
+      <footer class="site-footer"><div class="footer-sprout" aria-hidden="true">✳</div><p>谢谢你，来我的小角落坐了坐。</p><div class="footer-links"><a href="https://github.com/zhiheng-wu" target="_blank" rel="noopener noreferrer">在 GitHub 找到我 ↗</a><a id="email-link" hidden>写封信 ↗</a><a href="#home">回到页首 ↑</a></div><span class="footer-signoff">MADE WITH CURIOSITY & A LITTLE SUNSHINE</span></footer>
+    </div>
+  </main>
+</body>
+</html>
